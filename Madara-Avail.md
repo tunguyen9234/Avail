@@ -95,11 +95,14 @@ cd madara-cli
 ```
 # screen command
 - vào lại phiên screen
+```
 screen -ls
 screen -x madara
-
-- để tắt phiên screen đang hoạt động 
+```
+- để tắt phiên screen đang hoạt động
+```
 screen -ls
-rồi chọn phiên muốn tắt : screen -S name -X quit
-vd : screen -S madara -X quit
-
+screen -S name -X quit
+#ex:
+screen -S madara -X quit
+```
