@@ -59,7 +59,7 @@ cargo build --release
 app name same appchain name
 
 # edit file da-config.json
-*add AppId , nmenomic , wallet add . create wallet and faucet AVL goto [link](https://docs.availproject.org/about/faucet/)*
+*create wallet and faucet AVL goto [link](https://docs.availproject.org/about/faucet/).add AppId , nmenomic , wallet add.*
 ```
 vi /root/.madara/app-chains/<appchain name>/da-config.json
 #ex: vi /root/.madara/app-chains/tutu/da-config.json
