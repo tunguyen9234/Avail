@@ -56,7 +56,7 @@ cargo build --release
 # create id
 - go to [here](https://app-id-gen.vercel.app/) create id 
 
-app name id same appchain name
+app name same appchain name
 
 # edit file da-config.json
 *add AppId , nmenomic , wallet add . create wallet and faucet AVL goto [link](https://docs.availproject.org/about/faucet/)*
