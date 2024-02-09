@@ -56,12 +56,13 @@ cargo build --release
 # create id
 - go to [here](https://app-id-gen.vercel.app/) create id 
 
-app name same appchain name
+app name id same appchain name
 
 # edit file da-config.json
 *add AppId , nmenomic , wallet add . create wallet and faucet AVL goto [link](https://docs.availproject.org/about/faucet/)*
 ```
-vi /root/.madara/app-chains/tutu/da-config.json
+vi /root/.madara/app-chains/<appchain name>/da-config.json
+#ex: vi /root/.madara/app-chains/tutu/da-config.json
 ```
 # Run your app chain
 ```
@@ -81,6 +82,7 @@ cd madara-cli
 - go to [here](https://www.uuidgenerator.net/) create ui
 
 # create PR 
+- go to [link](https://imgur.com) create logo link
 - submitting a pull request in the [avail-campaign-listing](https://github.com/karnotxyz/avail-campaign-listing) repository
 - example b62f40ed-663c-49f4-9699-b5205b74c2fe.json
 ```
